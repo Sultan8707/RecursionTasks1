@@ -1,0 +1,48 @@
+Java Recursion Project
+Overview
+This project contains Java programs that solve problems using recursion. Each task has a short description and its time complexity.
+Tasks
+1. Find Minimum in an Array
+What it does: Finds the smallest number in an array.
+Time Complexity: O(n) (goes through all numbers).
+How it works: Checks the last number and compares it with the smallest from the rest of the array.
+2. Find Average of an Array
+What it does: Calculates the average of all numbers in an array.
+Time Complexity: O(n) (checks all numbers).
+How it works: Adds numbers one by one and divides by the total count.
+3. Check if a Number is Prime
+What it does: Checks if a number is prime.
+Time Complexity: O(√n) (only checks up to √n).
+How it works: Tries to divide the number by smaller numbers to see if it’s prime.
+4. Calculate Factorial
+What it does: Finds the factorial of a number.
+Time Complexity: O(n) (calls itself n times).
+How it works: Multiplies the number by the factorial of (number - 1).
+5. Calculate Fibonacci Number
+What it does: Finds the nth Fibonacci number.
+Time Complexity: O(2^n) (many repeated calls).
+How it works: Adds the previous two numbers to get the next one.
+6. Reverse a String
+What it does: Reverses a given string.
+Time Complexity: O(n) (goes through all characters).
+How it works: Moves the first character to the end and reverses the rest.
+7. Sum of Digits of a Number
+What it does: Adds all digits of a number together.
+Time Complexity: O(log n) (removes one digit each time).
+How it works: Adds the last digit to the sum of the remaining digits.
+8. Count Occurrences of a Character in a String
+What it does: Counts how many times a letter appears in a string.
+Time Complexity: O(n) (checks all characters).
+How it works: Compares the first letter with the rest and counts matches.
+9. Check if a String is a Palindrome
+What it does: Checks if a string reads the same forward and backward.
+Time Complexity: O(n) (checks both sides of the string).
+How it works: Compares the first and last characters, then checks the middle part.
+10. Count the Number of Digits in a Number
+What it does: Counts how many digits are in a number.
+Time Complexity: O(log n) (removes one digit each time).
+How it works: Divides the number by 10 and adds 1 to the count.
+
+Author:
+Muratbek Sultan SE-2405
+
